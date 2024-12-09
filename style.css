@@ -1,0 +1,90 @@
+body{
+    background: url('https://carwow-uk-wp-3.imgix.net/18015-MC20BluInfinito-scaled-e1707920217641.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.logo{
+   width: 50px;
+}
+
+
+#description{
+   border: 10px solid rgb(255,255,255);
+   border-radius: 5px;
+   font-family: Impact;
+}
+
+
+#header1{
+
+ font-size:100%;
+ border: 1px solid red;
+ height: 40px;
+ width: 100px;
+margin: 10px;
+
+}
+
+/* a:link{
+    color: red;
+} */
+a:visited{
+    color: green;
+}
+a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: blue;
+  }
+
+span{
+    background-color: aqua;
+   
+}
+
+.regForm{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;  
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+.regForm h3{
+text-align: center;
+color: black;
+}
+.regForm label .textlabel{
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px sandybrown;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 10px;
+
+}
+input:focus{
+    background-color:aqua ;
+}
+
+.btn{
+    text-align: center;
+}
+button{
+    background-color:rgb(94, 58, 58);
+    font-size: 20px;
+    color: tomato;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px sandybrown;
+}
